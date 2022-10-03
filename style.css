@@ -1,14 +1,41 @@
-#description{
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+@font-face{
+  src: url("fonts/Josefin Sans.ttf");
+  font-family: Josefin Sans;
 }
-#logo-and-name h1{
-  display: inline;
-  font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif
+#website-logo{
+  background-color: white;
 }
 #breadcrumb{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
+  font-family: "Josefin Sans";
+  font-size: 17px;
   font-weight: bold;
+  color: white;
+}
+#description{
+  text-align: center;
+  font-family: "Josefin Sans";
+  font-size: 17px;
+  color: white;
+}
+#hyperlinks{
+  font-family: "Josefin Sans";
+}
+#hyperlinks a:hover{
+  background-color: blue;
+}
+#hyperlink-1{
+  text-decoration: none;
+  color: white;
+}
+#hyperlink-2{
+  text-decoration: none;
+  color: white;
+}
+#hyperlink-3{
+  text-decoration: none;
+  color: white;
+}
+#hyperlink-4{
+  text-decoration: none;
+  color: white;
 }
