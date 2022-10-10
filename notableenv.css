@@ -1,0 +1,37 @@
+@font-face{
+  src: url("fonts/Josefin Sans.ttf");
+  font-family: Josefin Sans;
+}
+body{
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+#website-logo{
+  background-color: white;
+}
+#hyperlink-table{
+  border-collapse: collapse;
+  background-color: white;
+  display: inline-table;
+  position: absolute;
+  top: 23px;
+  right: 10px;
+}
+#hl-1, #hl-2, #hl-3, #hl-4{
+  font-family: "Josefin Sans";
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+#hl-1:hover, #hl-2:hover, #hl-3:hover, #hl-4:hover{
+  background-color: #072ac8;
+  color: white;
+}
+#breadcrumb{
+  font-family: "Josefin Sans";
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 10px;
+}
