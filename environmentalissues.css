@@ -37,23 +37,34 @@ body{
   font-weight: bold;
   margin-left: 10px;
 }
-#notableenv-table{
-  margin-left: auto;
-  margin-right: auto;
+#envissue-left{
   border-spacing: 20px;
 }
-#row-1{
+#envissue-left span{
   font-family: "Josefin Sans";
+  font-weight: bold;
   color: white;
   font-size: 20px;
 }
-#row-2 td{
-  text-align: center;
-}
-#row-3{
+#envissue-left div{
   font-family: "Josefin Sans";
   color: white;
   font-size: 15px;
-  text-align: center;
+  line-height: 20px;
+}
+#envissue-right{
+  border-spacing: 20px;
+  text-align: right;
+}
+#envissue-right span{
+  font-family: "Josefin Sans";
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+}
+#envissue-right div{
+  font-family: "Josefin Sans";
+  color: white;
+  font-size: 15px;
   line-height: 20px;
 }

@@ -10,6 +10,8 @@ body{
 }
 #website-logo{
   background-color: white;
+  position: sticky;
+  top: 0px;
 }
 #breadcrumb{
   font-family: "Josefin Sans";
@@ -35,12 +37,4 @@ body{
   text-decoration: none;
   color: white;
   padding: 10px;
-}
-#data-1{
-  margin-left: 10px;
-}
-#data-1 p{
-  color: white;
-  font-family: "Josefin Sans";
-  font-size: 20px;
 }
