@@ -13,6 +13,13 @@ body{
   position: sticky;
   top: 0px;
 }
+#website-logo input{
+  position: absolute;
+  top: 35px;
+  right: 20px;
+  height: 30px;
+  width: 300px;
+}
 #breadcrumb{
   font-family: "Josefin Sans";
   font-size: 17px;
@@ -23,18 +30,45 @@ body{
   text-align: center;
   font-family: "Josefin Sans";
   font-size: 17px;
-  color: white;
   line-height: 20px;
+  color: white;
+  margin: 10px;
 }
-#hyperlink-table{
+#hyperlinks{
   border-collapse: separate;
   border-spacing: 10px;
   margin-left: auto;
   margin-right: auto;
+}
+#hyperlinks th{
+  background-color: #072ac8;
+  line-height: 20px;
 }
 #hl-1, #hl-2, #hl-3, #hl-4{
   font-family: "Josefin Sans";
   text-decoration: none;
   color: white;
   padding: 10px;
+}
+#hl-1:hover, #hl-2:hover, #hl-3:hover, #hl-4:hover{
+  padding: 40px;
+}
+#environment-data{
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 15px 0px;
+}
+#environment-data img{
+  height: 200px;
+  width: 200px;
+}
+#environment-data td{
+  text-align: center;
+  font-family: "Josefin Sans";
+  color: white;
+  font-size: 17px;
+  line-height: 20px;
+}
+#row-2{
+  vertical-align: top;
 }
