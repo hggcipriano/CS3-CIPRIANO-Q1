@@ -1,5 +1,5 @@
 @font-face{
-  src: url("fonts/Josefin Sans.ttf");
+  src: url("Josefin Sans.ttf");
   font-family: Josefin Sans;
 }
 body{
@@ -40,14 +40,14 @@ body{
 #notableenv-table{
   margin-left: auto;
   margin-right: auto;
-  border-spacing: 20px;
+  border-spacing: 30px;
 }
 #row-1{
   font-family: "Josefin Sans";
   color: white;
   font-size: 20px;
 }
-span{
+#name{
   background-color: #072ac8;
   padding: 5px;
 }
@@ -60,4 +60,9 @@ span{
   font-size: 17px;
   text-align: center;
   line-height: 20px;
+  vertical-align: top;
+}
+#quote{
+  font-family: "Times New Roman";
+  font-style: italic;
 }

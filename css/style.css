@@ -1,5 +1,5 @@
 @font-face{
-  src: url("fonts/Josefin Sans.ttf");
+  src: url("Josefin Sans.ttf");
   font-family: Josefin Sans;
 }
 body{
@@ -71,4 +71,33 @@ body{
 }
 #row-2{
   vertical-align: top;
+}
+#reference-list h3{
+  background-color: #072ac8;
+  font-family: "Josefin Sans";
+  color: white;
+  position: sticky;
+  top: 104px;
+  padding: 10px;
+}
+#reference-list h3:hover{
+  background-color: #072ac8;
+  display: block;
+}
+#references{
+  font-family: "Josefin Sans";
+  color: white;
+  margin: 10px;
+  display: none;
+  position: sticky;
+  top: 0px;
+  background-color: #27963c;
+  z-index: -50;
+}
+#reference-list{
+  position: relative;
+  display: inline-block;
+}
+#reference-list:hover #references {
+  display: block;
 }
