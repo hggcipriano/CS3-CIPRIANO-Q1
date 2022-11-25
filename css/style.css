@@ -8,12 +8,12 @@ body{
   margin-right: 0px;
   margin-bottom: 0px;
 }
-#website-logo{
+header{
   background-color: white;
   position: sticky;
   top: 0px;
 }
-#website-logo input{
+header input{
   position: absolute;
   top: 35px;
   right: 20px;
@@ -52,6 +52,24 @@ body{
 }
 #hl-1:hover, #hl-2:hover, #hl-3:hover, #hl-4:hover{
   padding: 40px;
+  color: white;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+}
+#video{
+  text-align: center;
+}
+#video h3{
+  font-family: "Josefin Sans";
+  color: white;
+}
+#vidref{
+  color: white;
+  font-family: "Josefin Sans";
+  font-style: italic;
+  padding-top: 15px;
 }
 #environment-data{
   margin-left: auto;
@@ -83,6 +101,7 @@ body{
 #reference-list h3:hover{
   background-color: #072ac8;
   display: block;
+  color: white;
 }
 #references{
   font-family: "Josefin Sans";
